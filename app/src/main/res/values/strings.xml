@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LitLites</string>
+    <color name="Black">#000000</color>
+    <color name="ExpandchildBackground">#2e856e</color>
+    <color name="ExpandGroupBackground">#228c22</color>
+
+</resources>

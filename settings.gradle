@@ -1,0 +1,3 @@
+rootProject.name = "LitLites"
+include ':app'
+include ':app:library'

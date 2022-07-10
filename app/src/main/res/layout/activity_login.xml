@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+    <GridLayout
+        android:layout_width="362dp"
+        android:layout_height="525dp"
+        android:layout_centerInParent="true"
+        android:columnCount="1"
+        android:rowCount="1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="0"
+            android:layout_gravity="fill"
+            android:layout_margin="50dp"
+            android:elevation="50dp"
+            app:cardCornerRadius="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/Details"
+                    android:layout_width="147dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/login" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login as Distributer"
+                    android:textSize="24sp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/Credentials"
+                    android:layout_width="173dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/login" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login as Retailer"
+                    android:textSize="24sp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+
+</RelativeLayout>

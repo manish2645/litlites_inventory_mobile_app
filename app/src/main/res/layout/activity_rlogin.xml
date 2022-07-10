@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Rlogin">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="50dp">
+
+            <EditText
+                android:id="@+id/RPass"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="210dp"
+                android:drawableRight="@drawable/ic_lock"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/REmail"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="130dp"
+                android:drawableRight="@drawable/ic_email"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/RCode"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:drawableRight="@drawable/ic_code"
+                android:ems="10"
+                android:hint="Enter the Reatiler Code"
+                android:inputType="number"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/loginR"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginRight="100dp"
+                android:background="#B82B2B"
+                android:backgroundTint="#EF0B0B"
+                android:backgroundTintMode="add"
+                android:text="Login" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="210dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Login as Retailer"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

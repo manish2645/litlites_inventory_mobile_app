@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "504658664035",
+    "project_id": "litlites-6c77e",
+    "storage_bucket": "litlites-6c77e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504658664035:android:489d929c2c82629870b656",
+        "android_client_info": {
+          "package_name": "com.example.litlites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504658664035-h8ae0m9psaistbfmknn1lh4p2vrs5ah5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGkU2rerTj5ynCgv-HkKUKe6Hmcw-LHSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504658664035-h8ae0m9psaistbfmknn1lh4p2vrs5ah5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

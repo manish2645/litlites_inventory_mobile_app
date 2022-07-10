@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Dlogin">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="210dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Login as Distributer"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="50dp">
+
+            <EditText
+                android:id="@+id/Code"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:drawableRight="@drawable/ic_code"
+                android:ems="10"
+                android:hint="Enter the Distributer Code"
+                android:inputType="number"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/Username"
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="130dp"
+                android:drawableRight="@drawable/ic_user"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="210dp"
+                android:drawableRight="@drawable/ic_lock"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/loginD"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginRight="100dp"
+                android:background="#B82B2B"
+                android:backgroundTint="#EF0B0B"
+                android:backgroundTintMode="add"
+                android:text="Login" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
